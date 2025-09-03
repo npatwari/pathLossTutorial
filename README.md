@@ -15,7 +15,7 @@ Refer to this table when instructed to do so in the steps below.  Be sure to loo
 |---------|--------------|--------|-------|------|---------|
 | 1 | `cbrssdr1-browning`, `cbrssdr1-ustar`, `cbrssdr1-hospital` | 3401 | 3405 | 3403 | TX: 27, RX:30 |
 | 2 | `cbrssdr1-bes`, `cbrssdr1-fm`, `cbrssdr1-honors` | 3406 | 3410 | 3408 | TX: 27, RX:30 |
-| 3 | `cnode-mario`, `cnode-moran`, `cnode-guesthouse` | 3411 | 3415 | 3413 | TX: 85, RX:70 |
+| 3 | ~~`cnode-mario`~~, `cnode-moran`, `cnode-guesthouse` | 3411 | 3415 | 3413 | TX: 85, RX:70 |
 | 4 | `cnode-wasatch`, `cnode-ebc`, `cnode-ustar` | 3416 | 3419.9 | 3418 |  TX: 85, RX:70 |
 
 #### Within group assignments
