@@ -92,7 +92,7 @@ ssh -Y -p 22 -t username@pcWWW.emulab.net 'cd /local/repository/bin && tmux new-
 ```
 Change `username` to your username, and change pcWWW are the node name of your orchestrator that you are using.
 
-Copy and paste the first command into a terminal window to connect to the orchestrator.
+Copy and paste the first command into a new terminal window to connect via ssh to the orchestrator node.
 
 #### Edit the Experiment Parameters JSON File
 
