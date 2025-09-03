@@ -162,3 +162,5 @@ Zip this local directory `data/` directory and share it with everyone on the tea
 (All team members individually)
 
 In this step, you will load and run a Jupyter notebook. The file, `CheckShoutData.ipynb` is in this repo. It is also a [public Google Colab notebook](https://colab.research.google.com/drive/1g0DbZOUlDLly6y1m5UzvOpGiR9h4DKFC?usp=sharing) if you prefer to run the notebook on the cloud.
+
+You'll edit and save your .ipynb file, and turn it in to the Canvas assignment.
