@@ -98,7 +98,9 @@ Copy and paste the first command into a new terminal window to connect via ssh t
 
 We're going to need to edit a text file. People have their own preference for editor. I like `vi` but I know no one else who does. I suggest the `nano` editor. So run
 
-`nano /local/repository/etc/cmdfiles/save_iq_w_tx_cw.json`
+```
+nano /local/repository/etc/cmdfiles/save_iq_w_tx_cw.json
+```
 
 You're going to edit the entries of the JSON file parameter structure to have the following values:
  - "cmd": "save_iq_w_tx",
@@ -119,6 +121,11 @@ You're going to edit the entries of the JSON file parameter structure to have th
  - "rxclients": The exact same list as for txclients.
 
 Save the file (`^O`) and close the editor (`^X`).
+
+Take a look at the file to double check. In particular check that the rxfreq and txfreq are the same.
+```
+cat /local/repository/etc/cmdfiles/save_iq_w_tx_cw.json
+```
 
 ### Execute the Shout commands
 
