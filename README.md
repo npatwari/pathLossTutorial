@@ -35,7 +35,7 @@ All should clone this git repo to their laptop.
 
 You will run these steps before proceeding with the manual measurement gathering exercise so that your individual experiments can be instantiating while we proceed with part 1 below.
 
-* Instantiate the `shout-iface-node` profile
+* Instantiate the `shout-long-measurement` profile and start an experiment for your group
   - Navigate to: https://www.powderwireless.net/
   - Go to Experiments: Start Experiment
   - Click "Change Profile" and select "shout-long-measurement"
