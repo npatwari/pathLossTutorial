@@ -1,0 +1,26 @@
+[
+      {
+     "cmd": "save_iq_w_tx",
+     "sync": true,
+     "timeout": 30,
+
+     "nsamps": 8192,
+
+     "wotxrepeat": 0,
+     
+     "txrate": 500e3,
+     "txfreq": 3384e6,
+     "txgain": {"fixed": 27.0},
+     "txsamps": {"signal": "sine", "wfreq": 1e3, "wampl": 0.8},
+     "txwait": 3,
+
+     "rxrate": 500e3,
+     "rxfreq": 3384e6,
+     "rxgain": {"fixed": 30.0},
+     "rxrepeat": 4,
+     "rxwait": {"min": 50, "max": 2000, "res": "ms"},
+
+     "txclients": ["cbrssdr1-honors-comp", "cbrssdr1-hospital-comp", "cbrssdr1-ustar-comp"],
+     "rxclients": ["cbrssdr1-honors-comp", "cbrssdr1-hospital-comp", "cbrssdr1-ustar-comp"] 
+ }	
+]
