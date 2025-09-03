@@ -133,7 +133,7 @@ cat /local/repository/etc/cmdfiles/save_iq_w_tx_cw.json
 
 (The following commands assume you are in the `/local/repository/bin/` directory -- if you're not, do a `cd /local/repository/bin/`.)
 
-One one of your orchestrator windows, run
+In your **first** orchestrator window, run
 ```
 ./1.start_orch.sh
 ```
@@ -143,7 +143,7 @@ When it is done, on each of your compute nodes (attached to your three SDRs), ru
 ```
 (these can be started in parallel.)
 
-When all three compute nodes are done, go to the 2nd orchestrator terminal window and run
+When all three compute nodes are done, go to your **second** orchestrator terminal window and run
 ```
 ./3.run_cmd.sh
 ```
