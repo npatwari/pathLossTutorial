@@ -117,7 +117,7 @@ You're going to edit the entries of the JSON file parameter structure to have th
  - "rxgain": `{"fixed": YY.0}`, where `YY` is your gain for your SDR receiver, either 30 or 70.  
  - "rxrepeat": 4,
  - "rxwait": {"min": 50, "max": 2000, "res": "ms"},
- - "txclients":  Make a list of your three compute node names -- the ones ending in "-comp" if you're in Group 1 or 2. For example: `["cbrssdr1-honors-comp", "cbrssdr1-hospital-comp", "cbrssdr1-ustar-comp"]`,
+ - "txclients":  Make a list of your three compute IDs (in the ID column) -- the ones ending in "-comp" if you're in Group 1 or 2, or ending in "-dd-b210" if you're in Group 3 or 4. For example: `["cbrssdr1-honors-comp", "cbrssdr1-hospital-comp", "cbrssdr1-ustar-comp"]`,
  - "rxclients": The exact same list as for txclients.
 
 Save the file (`^O`), overwrite the same file by hitting Enter, and close the editor (`^X`).
