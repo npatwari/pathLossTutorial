@@ -120,12 +120,22 @@ You're going to edit the entries of the JSON file parameter structure to have th
  - "txclients":  Make a list of your three compute node names -- the ones ending in "-comp" if you're in Group 1 or 2. For example: `["cbrssdr1-honors-comp", "cbrssdr1-hospital-comp", "cbrssdr1-ustar-comp"]`,
  - "rxclients": The exact same list as for txclients.
 
-Save the file (`^O`) and close the editor (`^X`).
+Save the file (`^O`), overwrite the same file by hitting Enter, and close the editor (`^X`).
 
 Take a look at the file to double check. In particular check that the rxfreq and txfreq are the same.
 ```
 cat /local/repository/etc/cmdfiles/save_iq_w_tx_cw.json
 ```
+
+#### Change the shell script to call our JSON file
+
+Edit the `3.run_cmd.sh` script so that it calls on the save_iq_w_tx_cw.json file.
+```
+nano ./3.run_cmd.sh
+```
+Change the line that says `for CMD in "save_iq_w_tx_file"` to instead say `for CMD in "save_iq_w_tx_cw"`.
+Save the file (`^O`), overwrite the same file by hitting Enter, and close the editor (`^X`).
+
 
 ### Execute the Shout commands
 
