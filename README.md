@@ -103,7 +103,7 @@ nano /local/repository/etc/cmdfiles/save_iq_w_tx_cw.json
 ```
 
 You're going to edit the entries of the JSON file parameter structure to have the following values:
- - "cmd": "save_iq_w_tx_cw",
+ - "cmd": "save_iq_w_tx",
  - "sync": true,
  - "timeout": 30,
  - "nsamps": 8192,
