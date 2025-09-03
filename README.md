@@ -50,7 +50,6 @@ You will run these steps before proceeding with the manual measurement gathering
     - Give your experiment a short name including your group number
     - Select the "WNS2025" project if you see a project selection box, 
     - Click "Next".
-    - Don't enter an experiment name
   - On the "Schedule" step, leave all fields at their defaults and click "Finish"
   - Wait for the experiment to instantiate (turn green), and the startup scripts to finish
 
