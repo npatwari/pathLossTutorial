@@ -24,8 +24,10 @@ Assuming four people in your group, assign each person:
 2. Work B
 3. Work C
 4. Work D
+
 If you have fewer than four, some will do multiple jobs. You will mostly need to use one laptop, and pass it around.
 
+All should clone this git repo to their laptop.
 
 ### Preliminary steps:
 
@@ -121,6 +123,8 @@ Save the file (`^O`) and close the editor (`^X`).
 
 ### Execute the Shout commands
 
+(Work D)
+
 (The following commands assume you are in the `/local/repository/bin/` directory -- if you're not, do a `cd /local/repository/bin/`.)
 
 One one of your orchestrator windows, run
@@ -141,14 +145,20 @@ When all three compute nodes are done, go to the 2nd orchestrator terminal windo
 
 ### Copy your data back to your local laptop
 
+(Work D)
+
 After the 3.run_cmd.sh is done, while still on the orchestrator window, do a `ls /local/data/` to see your data directory. Make a note of the directory name. If there is more than one, use the most recent.
 
 Back on a terminal window on your local laptop, run
 ```
-scp -r username@pcWWW.emulab.net:/local/data/<Data dir> /Users/neal/git/shout/data/
+scp -r username@pcWWW.emulab.net:/local/data/<Data dir> <local git directory for pathLossTutorial>
 ```
-where, again, change username, and change pcWWW to the orchestrator name; and change <Data dir> to the directory you saw when running the `ls /local/data/` command.
+where, again, change username, and change pcWWW to the orchestrator name; and change `<Data dir>` to the directory you saw when running the `ls /local/data/` command, and `<local git directory for pathLossTutorial>` to the folder on your local laptop where you're running the pathLossTutorial.
 
+Zip this local directory `data/` directory and share it with everyone on the team.
 
 ## Analyze the Data
 
+(All team members individually)
+
+In this step, you will load and run a Jupyter notebook. The file, `CheckShoutData.ipynb` is in this repo. It is also a Google Colab.
